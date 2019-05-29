@@ -89,19 +89,20 @@ h3.logo-footer{
     border-bottom: 2px solid #003e52;
     color: #003e52;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .textoNutrucion2{
     color: #003e52;
     font-size: 16px;
-    border-bottom: 2px solid #cdd9dd;
 }
 
 .textoArticulos{
     color: #003e52;
     font-size: 18px;
     text-align: center;
+    border-top: 2px solid #cdd9dd;
+
 }
 
 .headerNutricion{
@@ -120,6 +121,41 @@ h3.logo-footer{
     padding-right: 20px;
     line-height: 13px;
     border: 0;
+}
+
+
+.colaboradores {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.boton2{
+    width: 150px; 
+    height: 50px; 
+    background-color: #57b6b2;
+    border-radius: 70px;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    align-items: center;
+    line-height: 13px;
+    border: 0;
+}
+
+.fondoSobre{
+    background-image:  url(/imagen/newsletter-envelope-icon.a24ac449379018f7633e.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 20px;
+    padding-bottom: 20px;
+
 }
 
 @media (max-width: 767px) {
