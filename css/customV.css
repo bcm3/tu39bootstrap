@@ -64,25 +64,23 @@ h3.logo-footer{
     padding-top: 25px;
     font-size: 18px;
     color: #fff;
-    transform: translate(-50%);
-}
-
-.number{
-    font-size: 60px;
-    line-height: 60px
+    line-height: 65px;
+    padding-left: 10px;
+    margin-left: 10%;
+    transform: translate(-80%);
 }
 
 .producto {
-    width: 90%;
-    margin: auto;
-    min-height: 757px;
+    width: auto;
+    height: auto;
+    max-width: 50%;
     box-shadow: 0 0 8px 0 rgba(35, 5, 5, 0.36);
     opacity: 1.9;
     padding: 30px;
     color: #003e52;
     margin-top: 100px;
     margin-bottom: 80px;
-    position: relative;
+
 }
 
 .textoNutrucion {
@@ -95,7 +93,6 @@ h3.logo-footer{
 .textoNutrucion2{
     color: #003e52;
     font-size: 16px;
-    border-bottom: 2px solid #cdd9dd;
 }
 
 .textoArticulos{
@@ -120,10 +117,4 @@ h3.logo-footer{
     padding-right: 20px;
     line-height: 13px;
     border: 0;
-}
-
-@media (max-width: 767px) {
-    .producto {
-        min-height: 500px;
-    }
 }
