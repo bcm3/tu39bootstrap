@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.578 30.813">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #84a2ab;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_002-facebook-logo" data-name="002-facebook-logo" transform="translate(1 1)">
+    <path id="Path_118" data-name="Path 118" class="cls-1" d="M37.068.006,33.332,0c-4.2,0-6.91,2.783-6.91,7.091V10.36H22.665a.588.588,0,0,0-.588.588v4.737a.587.587,0,0,0,.588.588h3.757V28.225a.587.587,0,0,0,.588.588h4.9a.587.587,0,0,0,.588-.588V16.272H36.89a.587.587,0,0,0,.588-.588l0-4.737a.588.588,0,0,0-.588-.588H32.5V7.589c0-1.332.317-2.008,2.053-2.008h2.517a.587.587,0,0,0,.587-.588V.594A.588.588,0,0,0,37.068.006Z" transform="translate(-22.077)"/>
+  </g>
+</svg>
