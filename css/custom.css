@@ -152,9 +152,9 @@ h3.logo-footer{
 .fondoSobre{
     background-image:  url(/imagen/newsletter-envelope-icon.a24ac449379018f7633e.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 20px;
+    background-size: cover;
     padding-bottom: 20px;
+    height: auto;
 }
 
 @media (max-width: 767px) {
