@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Slabo+27px&display=swap');
+
 h3.logo-footer{
     margin-top: 1px;
     color: #fff;
@@ -52,6 +54,8 @@ h3.logo-footer{
     height: 450px;
 }
 .body{
+    background: #f7f7f7;
+    font-family: 'Muli', sans-serif;
     text-align: center !important;
 }
 .pasoRedondo {
@@ -88,21 +92,44 @@ h3.logo-footer{
 .textoNutrucion {
     border-bottom: 2px solid #003e52;
     color: #003e52;
+    font-family: 'Slabo 27px' !important;
     font-size: 40px;
     margin-bottom: 10px;
+    letter-spacing: -2px;
 }
 
 .textoNutrucion2{
     color: #003e52;
     font-size: 16px;
+    font-family: 'Muli' !important;
 }
 
 .textoArticulos{
     color: #003e52;
     font-size: 18px;
     text-align: center;
-    border-top: 2px solid #cdd9dd;
+    font-family: 'Muli', sans-serif !important;
+    letter-spacing: -1;
+}
 
+.textoColaborador{
+    color: #212529;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Muli', sans-serif !important;
+    letter-spacing: -1;
+}
+
+
+
+.texto{
+    font-family: 'Slabo 27px', serif;
+}
+
+.textoDescripcion{
+    font-family: 'Muli' !important;
+    font-size: 16px;
+    color: #003e52;
 }
 
 .headerNutricion{
@@ -121,6 +148,7 @@ h3.logo-footer{
     padding-right: 20px;
     line-height: 13px;
     border: 0;
+    font-family: 'Muli' !important;
 }
 
 
@@ -149,6 +177,14 @@ h3.logo-footer{
     border: 0;
 }
 
+.newslater{
+    letter-spacing: normal;
+    font-weight: 400!important;
+    color: #003e52;
+    font-family: 'Slabo 27px';
+    font-size: 20px;
+}
+
 .fondoSobre{
     background-image:  url(/imagen/newsletter-envelope-icon.a24ac449379018f7633e.svg);
     background-repeat: no-repeat;
@@ -157,8 +193,98 @@ h3.logo-footer{
     height: auto;
 }
 
+.colorin{
+    color: #57b6b2!important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.email{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #003e52;
+    border-radius: 0;
+    padding: 0;
+    height: 30px;
+    width: 290px;
+}
+
+.radio{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.condiciones{
+    padding-left: 20px;
+}
+
+
+footer {
+    background-color: #003e52;
+    color: #84a2ab;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    z-index: -9999;
+}
+
+footer > ul > li{
+    list-style: none;
+}
+
+.cosa{
+    list-style: none;
+    font-family: 'Muli';
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.forma{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forma2{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logofooter {
+    height: 55px;
+    margin-right: 13px;
+}
+
+@media (min-width: 500px){
+    .logofooter{
+        border: 2px solid blue;
+        margin-bottom:10px;
+        text-align: center;
+        align-content: center;
+        justify-content: center
+    }
+}
+
 @media (max-width: 767px) {
     .producto {
         min-height: 500px;
+    }
+
+    .logofooter{
+        border: 2px solid red;
+        margin-bottom:10px;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 }

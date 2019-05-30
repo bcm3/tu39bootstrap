@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="imagen/39ytu-favicon.ico" >
-
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <title>Nutrición de precisión</title>
 
   <!-- Bootstrap -->
@@ -67,7 +67,7 @@
       <div class="textoNutrucion col-md-5"">
           <h1>Nutrición de precisión y test de microbioma</h1>
       </div>
-      <div class=" textoNutrucion2 col-md-7">
+      <div class="textoNutrucion2 col-md-7">
         <p>A partir de tu <strong>test de microbioma</strong>, realizaremos un análisis basado en el ADN de los
           microorganismos de tu intestino y así detectar posibles alteraciones.
           Según los resultados obtenidos de tu test, te recomendaremos tu solución de nutrición de precisión para que
@@ -85,21 +85,21 @@
           <div class="row">
             <div class="col-md-6 col-xs-12">
               <div class="producto text-center">
-                <span class="pasoRedondo">Paso <span class="number">1</span></span>
-                <h2>Realiza tu test de microbioma</h2>
+                <span class="pasoRedondo">Paso<br><span class="number">1</span></span>
+                <h2 class="texto">Realiza tu test de microbioma</h2>
                 <figure></figure>
-                <p>Este test analiza exhaustivamente la identidad y la abundancia de los microorganismos presentes en tu intestino para conocer la diversidad de bacterias que existen y detectar posibles alteraciones.</p>
-                <button class="boton">Cómo funciona el test?</button>
+                <p class="textoDescripcion">Este test analiza exhaustivamente la identidad y la abundancia de los microorganismos presentes en tu intestino para conocer la diversidad de bacterias que existen y detectar posibles alteraciones.</p>
+                <button class="boton btn btn-primary">Cómo funciona el test?</button>
                 <img class="img-responsive" src="imagen/estuche-kit-de-recogida-muestra-microbiota-informe.png" alt="foto">
               </div>
             </div>
             <div class="col-md-6 col-xs-12">
               <div class="producto text-center">
-                  <span class="pasoRedondo">Paso <span class="number">2</span></span>
-                  <h2>Adquiere tu producto de nutrición de precisión</h2>
+                  <span class="pasoRedondo">Paso<br><span class="number">2</span></span>
+                  <h2 class="texto">Adquiere tu producto de nutrición de precisión</h2>
                 <figure></figure>
-                <p>Una vez realizado tu test de microbioma podremos recomendarte, en el caso que tengas alguna alteración, tu combinación personalizada de soluciones con microorganismos vivos e ingredientes bioactivos.</p>
-                <button class="boton">Ver mi recomendación</button>
+                <p class="textoDescripcion">Una vez realizado tu test de microbioma podremos recomendarte, en el caso que tengas alguna alteración, tu combinación personalizada de soluciones con microorganismos vivos e ingredientes bioactivos.</p>
+                <button class="boton btn btn-primary">Ver mi recomendación</button>
                 <picture>
                   <img class="img-responsive" src="imagen/caja-vacia-contenedora.png" alt="foto">
                 </picture>
@@ -113,7 +113,7 @@
     <div class="container" style="padding: 15px 10px;">
         <div class="row">
             <div class="col-md-12">
-              <h2 class="textoArticulos">COLABORADORES</h2>
+              <h4 class="textoColaborador">COLABORADORES:</h4>
             </div>
         </div>
         <div class="row colaboradores">
@@ -142,13 +142,13 @@
     <div class="container fondoSobre" style="padding: 15px 10px;">
       <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-4">Mantente al día sobre nutrición, ciencia y hábitos saludables.</div>
+        <div class="newslater col-md-4">Mantente al día sobre nutrición, ciencia y hábitos saludables.</div>
         <div class="col-md-6">
           <form action="">
-            <input type="text" /><p> Dejanos tu email</p>
-            <p>He leído y acepto la política de privacidad y las condiciones del tratamiento de mis
-                datos
-                personales.</p>
+            <input type="email" class="email" placeholder="Déjanos tu email">
+            <input type="checkbox" id="radio" class="radio highlight"><p class="condiciones">He leído y acepto
+                <a class="colorin" href="https://www.39ytu.com/politica-privacidad/newsletter">la política de privacidad y las condiciones del tratamiento de mis
+                datos personales.</a></p></input>
             <button class="boton2">Enviar</button>
           </form>
         </div>
@@ -157,9 +157,78 @@
 
   </section>
 
+  <footer>
+    <div class="container" style="padding: 15px 10px;">
+      <div class="row cosa forma">
+            <div class="col-md-4" >
+              <ul style="list-style: none">
+                <li>Nutrición</li>
+                <li>Soluciones BioActivas</li>
+              </ul>
+            </div>
+          <div class="col-md-4">
+              <ul style="list-style: none">
+                  <li>Quienes Somos</li>
+                  <li>Preguntas Frecuentes</li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <ul style="list-style: none">
+                  <li>Area Privada</li>
+                </ul>
+          </div>
+          <div class="col-md-4">
+              <ul style="list-style: none">
+                  <li>Parque Científico Tecnológico
+                      C/Ada Byron, 107. 33203 Gijón
+                      Asturias</li>
+                  <li>info@iclanp.org</li>
+              </ul>
+          </div>
+      </div>
+      <div class="row" style="text-align: center">
+            <div class="row cosa forma2">
+              <div class="col-md-5 col-xs-8">
+                  <img class="logofooter" src="/imagen/logo-ienp-footer-white.svg" alt="logo">
+                  <img class="logofooter" src="/imagen/logo-39-y-tu-black-footer.svg" alt="logo">
+              </div>
+              <div class="col-md-3 col-xs-4">
+                  <img class="logofooter" src="/imagen/footer-facebook-icon.svg" alt="logo">
+                  <img class="logofooter" src="/imagen/footer-instagram-icon.svg" alt="logo">
+                  <img class="logofooter" src="/imagen/footer-youtube-icon.svg" alt="logo">
+              </div>
+              <div class="col-md-4 col-xs-12">
+              <p class="empresatexto">Política de Privacidad | Política de Condiciones de Uso | Política de
+                  Cookies
+                  Todos los derechos reservados, 2019.</p>
+              </div>
+            </div>
+    </div>
+  </footer>
+
 <!-- Librerías y Archivos JS-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-3.2.1.min.js">
+    $(document).ready(function(){
+
+// $('input:radio').change(function(){
+//     var $this = $(this);
+// 	$this.closest('.redes_sociales').find('div.highlight').removeClass('highlight');
+//     $this.closest('.option').addClass('highlight');
+// });
+
+$("button").click(function(){
+    if($('#radio').is(':checked')){
+        $(".condiciones").css("color", "black");
+    }
+    else {
+        $(".condiciones").css("color", "red");
+        $(".condiciones").css("font-weight", "bold");
+        $(".email").css("color", "red");
+      }
+    });
+});
+</script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Bootstrap Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
