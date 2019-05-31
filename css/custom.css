@@ -209,19 +209,83 @@ h3.logo-footer{
     width: 290px;
 }
 
-.radio{
+/* .radio{
     position: absolute;
     height: 16px;
     width: 16px;
-    background-color: #fff;
-    border: 1px solid red;
+    border-color:#f8204f;
+    border-style:solid;
+    border-width:2px;
+     border-radius: 50%;
+} */
+
+/* The radiocuerpo */
+.radiocuerpo {
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .radiocuerpo input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #84a2ab;
     border-radius: 50%;
-}
+    opacity: 2.2;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .radiocuerpo:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .radiocuerpo input:checked ~ .checkmark {
+    background-color: #57b6b2;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .radiocuerpo input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .radiocuerpo .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #84a2ab;
+  }
 
 .condiciones{
-    padding-left: 20px;
+    padding-left: 25px;
 }
-
 
 footer {
     background-color: #003e52;
@@ -264,27 +328,57 @@ footer > ul > li{
     margin-right: 13px;
 }
 
+
+
+.flecha{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 34px;
+    line-height: 47px;
+    cursor: pointer;
+    background-color: #57b6b2;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    float: right;
+    margin-bottom: 170px;
+}
+
 @media (min-width: 500px){
     .logofooter{
-        border: 2px solid blue;
-        margin-bottom:10px;
+        margin-bottom: 10px;
         text-align: center;
         align-content: center;
         justify-content: center
     }
+    .footer{
+        margin-bottom: 500px;
+    }
+
+    .boton{
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
+
+    .boton{
+        text-align: center;
+    }
+
     .producto {
-        min-height: 500px;
+        min-height: 060px;
     }
 
     .logofooter{
-        border: 2px solid red;
-        margin-bottom:10px;
+        margin-bottom: 10px;
         text-align: center;
         align-content: center;
         justify-content: center;
         align-items: center;
     }
+
+    
 }
